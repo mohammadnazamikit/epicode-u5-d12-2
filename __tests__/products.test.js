@@ -27,29 +27,6 @@ const updateProduct = {
   name: "ahmad",
 };
 
-/* describe("Test Products APIs", () => {
-  it("Should check that Mongo connection string is not undefined", () => {
-    expect(process.env.MONGO_TEST_CONNECTION).toBeDefined();
-  });
-
-  it("Should test that GET /products returns a success status and a body", async () => {
-    const response = await client.get("/products").expect(200);
-    console.log(response.body);
-  });
-
-  it("Should test that POST /products returns a valid _id and 201", async () => {
-    const response = await client
-      .post("/products")
-      .send(newProduct)
-      .expect(201);
-    expect(response.body._id).toBeDefined();
-  });
-
-  it("Should test that POST /products with a not valid product returns 400", async () => {
-    await client.post("/products").send(notValidProduct).expect(400);
-  });
-}); */
-
 describe("test for homework", () => {
   const notValidId = "123456123456123456123456";
   let _id = null;
