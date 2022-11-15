@@ -74,6 +74,7 @@ describe("test for homework", () => {
       .put(`/products/${_id}`)
       .send(updateProduct)
       .expect(200);
+    console.log(updateProduct);
   });
 
   it("update not successfull", async () => {
